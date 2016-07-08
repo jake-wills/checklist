@@ -43,7 +43,7 @@ main = function () {
         $("#add").click(function () {
             var post = $('#notes').val();
             if (post.length > 0) {
-                addToList( <div class="row"> post</div>);
+                addToList(post);
             }
 
 
